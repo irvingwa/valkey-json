@@ -27,5 +27,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: valkeyjson-module-${{ matrix.server_version }}
-        path: ./build/libjson.so
+        path: ./build/src/libjson.so
         retention-days: 30
